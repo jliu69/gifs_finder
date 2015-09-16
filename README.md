@@ -1,14 +1,15 @@
 # gifs_finder
 
-1. It contains RestKit which is installed via CocoaPods.
+This project reads in images from server via RestKit and display them into a table view.  Also provide searching capability that allow user entering keywords and refresh table view with search results.
 
-2. Have the following frameworks added in:
+For each image, user can copy it into a clipboard, or share it via SMS.
+
+The RestKit framework is already installed in, and project has added in the following frameworks:
 SystemConfiguration.framework
 MobileCoreServices.framework
 MessageUI.framework
 
-3. Require to have iOS 7 or later on device.
+It is recommend to run on iOS 7 or later.
 
-4. The zip file for the completed project can be downloaded from DropBox:
+For reference, the zip file of the full project can be downloaded from:
 https://www.dropbox.com/s/auc41jus7a2y4o9/gifs_finder.zip?dl=0
-
